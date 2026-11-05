@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="wu profile banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070A14"/>
+      <stop offset="0.55" stop-color="#0C1124"/>
+      <stop offset="1" stop-color="#160F30"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8FD8FF"/>
+      <stop offset="0.55" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F0ABFC"/>
+    </linearGradient>
+    <radialGradient id="a1" cx="0.2" cy="0.15" r="0.6">
+      <stop offset="0" stop-color="#4F7CFF" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#4F7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="a2" cx="0.88" cy="0.9" r="0.55">
+      <stop offset="0" stop-color="#B44BFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#B44BFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="300" rx="22" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="22" fill="url(#a1)"/>
+  <rect width="1280" height="300" rx="22" fill="url(#a2)"/>
+  <g font-family="'SF Mono', Menlo, Consolas, monospace">
+    <text x="72" y="104" font-size="26" fill="#7C8BB8">~/whoami</text>
+    <text x="68" y="186" font-size="96" font-weight="700" fill="url(#name)">wu</text>
+    <text x="76" y="232" font-size="25" fill="#C7D2FE">agent-native tools for macOS</text>
+    <g font-size="18" fill="#6E7AA6">
+      <text x="76" y="272">DeepSeek Harness plugins</text>
+      <text x="312" y="272">· 21 native macOS tools</text>
+      <text x="556" y="272">· zero dependencies</text>
+      <text x="740" y="272">· MIT</text>
+    </g>
+  </g>
+  <g transform="translate(888, 62)">
+    <rect width="312" height="176" rx="16" fill="#06090F" stroke="#39456F" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="6" fill="#FF5F57"/>
+    <circle cx="46" cy="24" r="6" fill="#FEBC2E"/>
+    <circle cx="68" cy="24" r="6" fill="#28C840"/>
+    <g font-family="'SF Mono', Menlo, Consolas, monospace" font-size="15">
+      <text x="22" y="66" fill="#5EF2B8">$</text>
+      <text x="42" y="66" fill="#DDE6FF">whoami</text>
+      <text x="42" y="94" fill="#A78BFA">agent-native maker</text>
+      <text x="22" y="126" fill="#5EF2B8">$</text>
+      <text x="42" y="126" fill="#DDE6FF">ls featured</text>
+      <text x="42" y="154" fill="#8FD8FF">dsh-plugin-macos</text>
+    </g>
+  </g>
+</svg>
